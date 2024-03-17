@@ -46,12 +46,6 @@ li a {
     font-weight: bold;
 }
 
-body {
-    /*background-image: url(./pictures/website_background.jpg);
-    background-repeat: no-repeat;
-    background-position: center center;*/
-}
-
 section {
     display: flex;
     flex-direction: column;
@@ -74,7 +68,7 @@ section {
 }
 
 .picture {
-    width: 350px;
+    width: 300px;
     height: 350px;
     border-radius: 50%;
     padding: 1rem;
@@ -87,11 +81,11 @@ section {
 }
 
 #info h2 {
-    font-size: 6rem;
+    font-size: 5rem;
 }
 
 #info h3 {
-    font-size: 4rem;
+    font-size: 3rem;
 }
 
 #link {}
@@ -99,10 +93,13 @@ section {
 .footer {
     text-align: center;
     font-size: 3rem;
+    margin-bottom: 0;
+    padding: 5px;
 }
 
 #quote p {
     font-size: 2rem;
+    font-style: italic;
 }
 
 #quote q {
