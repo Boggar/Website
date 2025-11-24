@@ -1,6 +1,5 @@
 {
   "name": "website",
-  "homepage": "https://www.manuel-thamm.de",
   "private": true,
   "version": "0.0.0",
   "type": "module",
