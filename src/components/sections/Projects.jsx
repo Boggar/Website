@@ -8,12 +8,12 @@ export const Projects = () => {
     >
       <RevealOnScroll>
         <div className="max-w-5xl mx-auto px-4">
-          <h2 className="text-3xl font-bold mb-8 bg-gradient-to-r from-purple-700 to-amber-400 bg-clip-text text-transparent text-center">
+          <h2 className="text-3xl font-bold mb-8 bg-gradient-to-r from-purple-800 to-amber-400 bg-clip-text text-transparent text-center">
             {" "}
             Featured Projects
           </h2>
           <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
-            <div className="p-6 rounded-xl border border-white/10 hover:-translate-1-y hover:border-purple-500/30 hover:sahdow-[0_2px_8px_rgba(59, 130, 246, 0.1)] transition-all">
+            <div className="p-6 rounded-xl border border-white/10 hover:-translate-y-1 hover:border-purple-500/30 hover:shadow-[0_2px_8px_rgba(59, 130, 246, 0.1)] transition-all">
               <h3 className="text-xl font-bold mb-2">Python Keylogger</h3>
               <p className="text-gray-400 mb-4">
                 A minimalistic Python keylogger, developed solely for
@@ -30,7 +30,7 @@ export const Projects = () => {
                 ].map((tech, key) => (
                   <span
                     key={key}
-                    className="bg-purple-500/10 text-purple-500 py-1 px-3 rounded-full text-sm hover:bg-purple-500/20
+                    className="bg-purple-500/10 text-purple-800 py-1 px-3 rounded-full text-sm hover:bg-purple-500/20
                                 hover:shadow-[0_2px_8px_rgba(59, 130, 246, 0.2)] transition"
                   >
                     {tech}
@@ -42,14 +42,14 @@ export const Projects = () => {
                   target="_blank"
                   rel="noopener noreferrer"
                   href="https://github.com/Boggar/Keylogger"
-                  className="text-purple-400 hover:text-purple-300 transition-colors my-4"
+                  className="text-purple-800 hover:text-purple-300 transition-colors my-4"
                 >
                   View Project →
                 </a>
               </div>
             </div>
 
-            <div className="p-6 rounded-xl border border-white/10 hover:-translate-1-y hover:border-purple-500/30 hover:sahdow-[0_2px_8px_rgba(59, 130, 246, 0.1)] transition-all">
+            <div className="p-6 rounded-xl border border-white/10 hover:-translate-y-1 hover:border-purple-500/30 hover:shadow-[0_2px_8px_rgba(59, 130, 246, 0.1)] transition-all">
               <h3 className="text-xl font-bold mb-2">OCR Detection Tool</h3>
               <p className="text-gray-400 mb-4">
                 A Python-based OCR tool with a user-friendly GUI for extracting
@@ -69,7 +69,7 @@ export const Projects = () => {
                 ].map((tech, key) => (
                   <span
                     key={key}
-                    className="bg-purple-500/10 text-purple-500 py-1 px-3 rounded-full text-sm hover:bg-purple-500/20
+                    className="bg-purple-500/10 text-purple-800 py-1 px-3 rounded-full text-sm hover:bg-purple-500/20
                                 hover:shadow-[0_2px_8px_rgba(59, 130, 246, 0.2)] transition"
                   >
                     {tech}
@@ -81,14 +81,14 @@ export const Projects = () => {
                   target="_blank"
                   rel="noopener noreferrer"
                   href="https://github.com/Boggar/OCR_Detection"
-                  className="text-purple-400 hover:text-purple-300 transition-colors my-4"
+                  className="text-purple-800 hover:text-purple-300 transition-colors my-4"
                 >
                   View Project →
                 </a>
               </div>
             </div>
 
-            <div className="p-6 rounded-xl border border-white/10 hover:-translate-1-y hover:border-purple-500/30 hover:sahdow-[0_2px_8px_rgba(59, 130, 246, 0.1)] transition-all">
+            <div className="p-6 rounded-xl border border-white/10 hover:-translate-y-1 hover:border-purple-500/30 hover:shadow-[0_2px_8px_rgba(59, 130, 246, 0.1)] transition-all">
               <h3 className="text-xl font-bold mb-2">Smart Alarmclock</h3>
               <p className="text-gray-400 mb-4">
                 A smart alarm clock that uses image recognition to detect
@@ -102,7 +102,7 @@ export const Projects = () => {
                 {["Python", "YoloCam", "MQTT", "Docker"].map((tech, key) => (
                   <span
                     key={key}
-                    className="bg-purple-500/10 text-purple-500 py-1 px-3 rounded-full text-sm hover:bg-purple-500/20
+                    className="bg-purple-500/10 text-purple-800 py-1 px-3 rounded-full text-sm hover:bg-purple-500/20
                                 hover:shadow-[0_2px_8px_rgba(59, 130, 246, 0.2)] transition"
                   >
                     {tech}
@@ -112,7 +112,7 @@ export const Projects = () => {
               <div className="flex justify-between items-center">
                 <a
                   href=""
-                  className="text-purple-400 hover:text-purple-300 transition-colors my-4"
+                  className="text-purple-800 hover:text-purple-300 transition-colors my-4"
                 >
                   View Project →
                 </a>

@@ -105,7 +105,7 @@ export const About = () => {
     >
       <RevealOnScroll>
         <div className="max-w-3xl mx-auto px-4">
-          <h2 className="text-3xl font-bold mb-8 bg-gradient-to-r from-purple-700 to-amber-400 bg-clip-text text-transparent text-center">
+          <h2 className="text-3xl font-bold mb-8 bg-gradient-to-r from-purple-800 to-amber-400 bg-clip-text text-transparent text-center">
             {" "}
             About Me
           </h2>
@@ -126,7 +126,7 @@ export const About = () => {
                   {languageSkills.map((tech, key) => (
                     <span
                       key={key}
-                      className="bg-purple-500/10 text-purple-500 py-1 px-3 rounded-full text-sm hover:bg-purple-500/20
+                      className="bg-purple-500/10 text-purple-800 py-1 px-3 rounded-full text-sm hover:bg-purple-500/20
                                 hover:shadow-[0_2px_8px_rgba(59, 130, 246, 0.2)] transition"
                     >
                       {tech}
@@ -141,7 +141,7 @@ export const About = () => {
                   {technologySkills.map((tech, key) => (
                     <span
                       key={key}
-                      className="bg-purple-500/10 text-purple-500 py-1 px-3 rounded-full text-sm hover:bg-purple-500/20
+                      className="bg-purple-500/10 text-purple-800 py-1 px-3 rounded-full text-sm hover:bg-purple-500/20
                                 hover:shadow-[0_2px_8px_rgba(59, 130, 246, 0.2)] transition"
                     >
                       {tech}
@@ -158,7 +158,7 @@ export const About = () => {
                   {frameworkSkills.map((tech, key) => (
                     <span
                       key={key}
-                      className="bg-purple-500/10 text-purple-500 py-1 px-3 rounded-full text-sm hover:bg-purple-500/20
+                      className="bg-purple-500/10 text-purple-800 py-1 px-3 rounded-full text-sm hover:bg-purple-500/20
                                 hover:shadow-[0_2px_8px_rgba(59, 130, 246, 0.2)] transition"
                     >
                       {tech}
@@ -173,7 +173,7 @@ export const About = () => {
                   {securityConcepts.map((tech, key) => (
                     <span
                       key={key}
-                      className="bg-purple-500/10 text-purple-500 py-1 px-3 rounded-full text-sm hover:bg-purple-500/20
+                      className="bg-purple-500/10 text-purple-800 py-1 px-3 rounded-full text-sm hover:bg-purple-500/20
                                 hover:shadow-[0_2px_8px_rgba(59, 130, 246, 0.2)] transition"
                     >
                       {tech}
@@ -191,7 +191,7 @@ export const About = () => {
                   key={idx}
                   className="p-6 rounded-xl border-white/10 border hover:-translate-y-1 transition-all"
                 >
-                  <h4 className="text-lg font-bold text-purple-600">
+                  <h4 className="text-lg font-bold text-purple-800">
                     {uni.title}
                   </h4>
                   <p className="text-gray-300 mb-2">{uni.details}</p>
@@ -217,7 +217,7 @@ export const About = () => {
                   key={idx}
                   className="p-6 rounded-xl border-white/10 border hover:-translate-y-1 transition-all"
                 >
-                  <h4 className="text-lg font-bold text-purple-600">
+                  <h4 className="text-lg font-bold text-purple-800">
                     {job.title}
                   </h4>
                   <p className="text-sm text-gray-300 italic mb-2">
