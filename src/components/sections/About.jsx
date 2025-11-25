@@ -2,11 +2,13 @@ import { RevealOnScroll } from "../RevealOnScroll";
 
 export const About = () => {
 
-    const languageSkills = ["Python", "JavaScript", "Java", "C", "C#", "GDScript"];
+    const languageSkills = ["Python", "JavaScript", "Java", "C", "C#", "GDScript", "SQL"];
 
-    const technologySkills = ["Linux", "Windows", "Whireshark", "SQL", "Docker"];
+    const technologySkills = ["Linux", "Windows", "Whireshark", "SQLDeveloper", "Docker", "MQTT", "YoloCam"];
 
-    /*const conceptSkills = ["XSS", "JWT", "ReverseShell", "Poisoning", "CSRF", "SQLi"];*/
+    const frameworkSkills = ["React.js", "Node.js", "Spring Boot", "ROS2", "JavaFX", "Java Swing", "Express.js"];
+
+    const securityConcepts = ["XSS", "JWT Auth", "Reverse Shell", "Poisoning", "CSRF", "SQL Injection"];
 
     return <section id="about" className="min-h-screen flex items-center justify-center py-20"
     >
@@ -21,12 +23,12 @@ export const About = () => {
                 <p className="text-gray-300 mb-6">
                     Dedicated student of Applied Computer Science with a keen interest in IT security and initial practical experience
                     from a cybersecurity hackathon. Familiar with topics such as web vulnerabilities (XSS, CSRF), authentication mechanisms (JWT),
-                    and basic attack techniques (reverse shells, poisoning).
+                    and basic attack techniques (reverse shells, poisoning, SQLi).
                 </p>
 
                 <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
                     <div className="rounded-xl p-6 hover:-translate-y-1 transition-all">
-                        <h3 className="text-xl font-bold mb-4">Language</h3>
+                        <h3 className="text-xl font-bold mb-4">Languages</h3>
                         <div className="flex flex-wrap gap-2">
                             {languageSkills.map((tech, key) => (
                                 <span
@@ -40,7 +42,7 @@ export const About = () => {
                     </div>
 
                     <div className="rounded-xl p-6 hover:-translate-y-1 transition-all">
-                        <h3 className="text-xl font-bold mb-4">Technology</h3>
+                        <h3 className="text-xl font-bold mb-4">Tools & Platforms</h3>
                         <div className="flex flex-wrap gap-2">
                             {technologySkills.map((tech, key) => (
                                 <span
@@ -52,7 +54,34 @@ export const About = () => {
                             ))}
                         </div>
                     </div>
-
+                        
+                    <div className="rounded-xl p-6 hover:-translate-y-1 transition-all">
+                        <h3 className="text-xl font-bold mb-4">Framework & Libraries</h3>
+                        <div className="flex flex-wrap gap-2">
+                            {frameworkSkills.map((tech, key) => (
+                                <span
+                                    key={key}
+                                    className="bg-purple-500/10 text-purple-500 py-1 px-3 rounded-full text-sm hover:bg-purple-500/20
+                                hover:shadow-[0_2px_8px_rgba(59, 130, 246, 0.2)] transition">
+                                    {tech}
+                                </span>
+                            ))}
+                        </div>
+                    </div>
+                        
+                    <div className="rounded-xl p-6 hover:-translate-y-1 transition-all">
+                        <h3 className="text-xl font-bold mb-4">Security Concepts</h3>
+                        <div className="flex flex-wrap gap-2">
+                            {securityConcepts.map((tech, key) => (
+                                <span
+                                    key={key}
+                                    className="bg-purple-500/10 text-purple-500 py-1 px-3 rounded-full text-sm hover:bg-purple-500/20
+                                hover:shadow-[0_2px_8px_rgba(59, 130, 246, 0.2)] transition">
+                                    {tech}
+                                </span>
+                            ))}
+                        </div>
+                    </div>
                 </div>
             </div>
             <div className="grid grid-cols-1 md:grid-cols-2 gap-6 mt-8">
@@ -64,12 +93,12 @@ export const About = () => {
                         </li>
                         
                         <li>
-                            <strong>Exchange Semester </strong> - Seinäjoki University of Applied Sciences (July 2023 - Dec. 2023)
+                            <strong>Exchange Semester </strong> - Seinäjoki University of Applied Sciences (Jul. 2023 - Dec. 2023)
                         </li>
 
                         <li>
                             <strong>Relevant Coursework:</strong> Data Structures, System Security, Data Security, System Administration,
-                            Cloud Computing, Operating Systems and Software Development
+                            Cloud Computing, Operating Systems, Network Engineering and Software Development
                         </li>
                     </ul>
                 </div>
@@ -87,10 +116,10 @@ export const About = () => {
                             </h4>
 
                             <h4>
-                                <strong>Liebherr x RWU Hackathon</strong> (Oct. 2024)
-                                <ul className="list-disc list-inside text-gray-300 space-y-2">
-                                    <li>...</li>
-                                    <li>...</li>
+                                    <strong>Liebherr Hackathon</strong>
+                                    <ul className="list-disc list-inside text-gray-300 space-y-2">
+                                    <li>Main Round 6th Place (21st Nov. 2024)</li>   
+                                    <li>Qualification Round 2nd Place (24th Oct. 2024)</li>
                                 </ul>
                             </h4>
                         </div>

@@ -13,7 +13,7 @@ export const Navbar = ({ menuOpen, setMenuOpen }) => {
             <div className="flex justify-between items-center h-16">
                 <a href="#home" className="font-mono text-xl font-bold text-white">
                     {" "}
-                    manuel-<span className="text-purple-500">thamm</span>{" "}
+                    manuel<span className="text-purple-500">-thamm</span>{" "}
                 </a>
 
                 <div className={`w-7 h-5 relative cursor-pointer z-40 md:hidden 
